@@ -53,8 +53,6 @@ class SelectPieceProvider extends ChangeNotifier {
       .map((e) => e.isSelected)
       .toList();
 
-  ///size
-  // ProductSize? size;
   late ProductSize selectedSize;
 
   List<bool> get isSelectedSize =>

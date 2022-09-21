@@ -7,6 +7,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../../../generated/l10n.dart';
 import '../../../../../injection/service_locator.dart';
+import '../../../../product/presentation/ui/widget/featured_producrs.dart';
 import '../../state/bloc/profile_bloc.dart';
 
 class ProfileScreen extends StatelessWidget {

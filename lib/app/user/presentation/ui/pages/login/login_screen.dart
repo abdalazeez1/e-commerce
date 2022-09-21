@@ -163,7 +163,7 @@ class LoginScreen extends StatelessWidget {
           description: state.loginStatus.error ?? 'some thing wrong ',
           contentType: ContentType.failure);
     }
-    //todo make stream
+
     if (state.loginStatus.isSuccess()) {
       context
           .read<AppMangerBloc>()

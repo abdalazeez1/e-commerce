@@ -38,7 +38,7 @@ class RootScreen extends StatelessWidget {
     return ZoomDrawer(
       controller: z,
       borderRadius: 24,
-      isRtl: localeWatcher.local==const Locale('ar')?true:false,//todo
+      isRtl: localeWatcher.local==const Locale('ar')?true:false,
       style: DrawerStyle.defaultStyle,
       showShadow: true,
       openCurve: Curves.fastOutSlowIn,

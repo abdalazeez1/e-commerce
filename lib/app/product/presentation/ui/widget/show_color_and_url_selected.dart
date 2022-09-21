@@ -17,7 +17,7 @@ class ShowColorAndImagesSelected extends StatelessWidget {
       if (state.addProductAttributes[state.indexCurrentSizeSelected].colorAndImage?.isNotEmpty??false) {
         return RenderColorAndImage(
           price: colorAndImage2?.price ?? 0,
-          //todo remove ?
+
           nameColor: colorAndImage2?.color ?? '',
           images: colorAndImage2?.images ?? [],
         );

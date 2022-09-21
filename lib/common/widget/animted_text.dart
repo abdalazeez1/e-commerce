@@ -7,7 +7,7 @@
 //
 //   final int value;
 //
-// //todo add text animation to all app
+
 //   @override
 //   Widget build(BuildContext context) {
 //     return AnimatedFlipCounter(value: value, textStyle: style);

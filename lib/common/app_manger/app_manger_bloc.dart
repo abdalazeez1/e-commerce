@@ -36,10 +36,7 @@ class AppMangerBloc extends Bloc<AppMangerEvent, AppMangerState> {
   }
 
   Future<void> _mapAppStarted() async {
-    //todo delete delay
-    // final delay = Future.delayed(const Duration(seconds: 2));
     await doBeforeOpen?.call();
-    // await delay;
     add(const AppMangerStateChanged(state: AppState.unAuthenticated));
     _facade = si();
     _streamSubscription = _facade.userStream.listen(_userListener);

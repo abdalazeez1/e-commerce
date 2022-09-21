@@ -23,7 +23,7 @@ class AddProductProvider extends ChangeNotifier {
   int get indexCurrentColorSelected =>
       (addProductAttributes[indexCurrentSizeSelected].colorAndImage ?? [])
           .indexWhere((element) => element.isSelected);
-  final List<bool> _enterCustomDate = [false, false]; //todo refactor to one
+  final List<bool> _enterCustomDate = [false, ];
 
   List<bool> get enterCustomDate => _enterCustomDate;
 
